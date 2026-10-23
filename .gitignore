@@ -1,7 +1,8 @@
+
 # Diretório de trabalho do Terraform
 .terraform/
 
-# Arquivos de estado
+# Arquivos de estado do Terraform
 *.tfstate
 *.tfstate.*
 
@@ -24,6 +25,6 @@ crash.*.log
 
 # Exceção para modelos de ambiente
 !.env.example
- 
+
 # Arquivo gerado pelo Terraform
 rendered-user-data.yaml
