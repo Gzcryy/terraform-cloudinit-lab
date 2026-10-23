@@ -24,3 +24,6 @@ crash.*.log
 
 # Exceção para modelos de ambiente
 !.env.example
+ 
+# Arquivo gerado pelo Terraform
+rendered-user-data.yaml
