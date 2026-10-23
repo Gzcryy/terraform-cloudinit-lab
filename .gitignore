@@ -1,0 +1,26 @@
+# Diretório de trabalho do Terraform
+.terraform/
+
+# Arquivos de estado
+*.tfstate
+*.tfstate.*
+
+# Arquivos de variáveis que podem conter segredos
+*.tfvars
+*.tfvars.json
+
+# Arquivos de crash
+crash.log
+crash.*.log
+
+# Arquivos locais e temporários
+.DS_Store
+*.bak
+*.tmp
+
+# Credenciais
+.env
+.env.*
+
+# Exceção para modelos de ambiente
+!.env.example
